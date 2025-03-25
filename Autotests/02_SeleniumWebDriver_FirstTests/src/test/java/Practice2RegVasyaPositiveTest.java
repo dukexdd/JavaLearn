@@ -3,7 +3,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class Practice_2 {
+public class Practice2RegVasyaPositiveTest {
 
     @Test
     public void helloVasya() {

@@ -1,8 +1,7 @@
-
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class Lesson2_1 {
+public class Lesson2IMTResultTests {
     @Test
     public void testNormalWeight() {
         var actualResult = getIMTResult(180f, 75f);

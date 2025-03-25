@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class Practice_4 {
+public class Practice4RegFullTests {
 
     @Test
     public void testPositive () {

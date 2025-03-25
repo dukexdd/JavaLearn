@@ -1,7 +1,7 @@
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class Lesson2_2 {
+public class Lesson2MarkResultTests {
 
     @Test
     public void testVeryBadMark() {

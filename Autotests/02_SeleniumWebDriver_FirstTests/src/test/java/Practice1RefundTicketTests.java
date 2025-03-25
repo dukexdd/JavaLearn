@@ -1,7 +1,7 @@
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class Practice_1 {
+public class Practice1RefundTicketTests {
 
   // Блок с тестами
 
