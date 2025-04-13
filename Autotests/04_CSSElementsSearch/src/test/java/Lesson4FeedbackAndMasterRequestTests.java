@@ -26,14 +26,14 @@ public class Lesson4FeedbackAndMasterRequestTests {
     private final By dateShowResultLocator = By.cssSelector(".show-date");
 
 
-    @BeforeAll
-    public static void setUp() {
+    @BeforeEach
+    public void setUp() {
         System.setProperty("webdriver.chrome.driver", "drivers\\chromedriver.exe");
         driver = new ChromeDriver();
     }
 
-    @AfterAll
-    public static void tearDown() {
+    @AfterEach
+    public void tearDown() {
         driver.quit();
     }
 

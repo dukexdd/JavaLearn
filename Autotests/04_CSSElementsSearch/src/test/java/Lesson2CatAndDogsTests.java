@@ -30,7 +30,6 @@ public class Lesson2CatAndDogsTests {
 
     @AfterEach
     public void tearDown () {
-
         driver.quit();
     }
 
