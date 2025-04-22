@@ -20,7 +20,13 @@ public class Practic2Tests {
     @Test
     public void mainPageTests() {
         driver.navigate().to("https://qajava.skillbox.ru/index.html");
+
+        /* На главной странице найдите все теги div, которые являются дочерними
+        элементами первого уровня у элемента <footer id="footer">.
+         */
         var footerDiv = driver.findElements(By.cssSelector("footer > div"));
+
+        // На главной странице найдите любой тег, который расположен сразу после <li id="genres">
         var afterGenresTag = driver.findElements(By.cssSelector("#genres + *"));
 
     }
@@ -28,6 +34,10 @@ public class Practic2Tests {
     @Test
     public void searchPageTests() {
         driver.navigate().to("https://qajava.skillbox.ru/search.html");
+
+        /* На странице поиска найдите любые теги, которые расположены после <div class="filter-container">
+         (необязательно ближайший сосед).
+         */
         var filterContainer = driver.findElements(By.cssSelector("div.filter-container ~ *"));
     }
 
